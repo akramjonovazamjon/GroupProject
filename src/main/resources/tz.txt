@@ -1,6 +1,0 @@
-auth -> a'zamjon
-home page -> faculty if does not exist -> add faculty button.
-inside faculty :
-     groups belonged faculty should be shown
-     inside a group :
-            students should be shown.
