@@ -10,7 +10,7 @@ http://www.springframework.org/schema/context/spring-context.xsd
 http://www.springframework.org/schema/mvc
 http://www.springframework.org/schema/mvc/spring-mvc.xsd">
     <!-- Add support for component scanning -->
-    <context:component-scan base-package="com.google"/>
+    <context:component-scan base-package="com.company"/>
     <!-- Add support for conversion, formatting and validation support -->
     <!-- Define Spring MVC view resolver -->
     <!--    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">-->
@@ -45,10 +45,4 @@ http://www.springframework.org/schema/mvc/spring-mvc.xsd">
         <property name="templateEngine" ref="templateEngine" />
         <property name="characterEncoding" value="UTF-8"/>
     </bean>
-    <mvc:annotation-driven/>
-    <mvc:resources mapping="/**" location="WEB-INF/image/" />
-<!--    <mvc:interceptors>-->
-<!--        <bean id="loggerInterceptor" class="org.example.controller.filter.SessionConfigInterceptor"/>-->
-<!--    </mvc:interceptors>-->
-
 </beans>
